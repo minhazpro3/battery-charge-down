@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -35,4 +36,37 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.blog{
+  background-color: rgb(169, 169, 170);
+  padding: 10px;
+  border: 5px dotted rgb(255, 146, 3);
+}
+
+.batCharge{
+  padding: 3px 5px;
+  background-color: skyblue;
+  margin-left: 5px;
+}
+.batteryBackground{
+  background-image: url(charging.jpg);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  overflow: hidden;
+ padding-bottom: 420px;
+ padding-top: 0px;
+}
+
+.text{
+  color: white;
+  padding: 0px;
+  margin: 12px;
+}
+
+.buttons{
+  position: relative;
+  position: center;
+  margin-top: 100px;
 }
